@@ -1,0 +1,25 @@
+{
+  "name": "documentation-printer-man",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "WTFPL",
+  "repository": "https://github.com/suttang/documentation-printer-man",
+  "author": "suttang <suttang@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "progress": "^2.0.0",
+    "puppeteer": "^0.11.0",
+    "simplecrawler": "^1.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
