@@ -7,7 +7,7 @@ const crawl = (entrypoint) => {
     const collection = []
 
     // Setup crawler options
-    crawler.supportedMimeTypes = [/^text\/html$/i]
+    crawler.supportedMimeTypes = [/^text\/html/i]
     crawler.downloadUnsupported = false
     crawler.interval = 100
 
